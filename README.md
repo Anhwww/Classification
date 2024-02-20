@@ -9,5 +9,5 @@ the class labels obtained with the prediction and the original labels of test da
 5. Propose an approach to improve the performance of k-nn with the help of k-cross validation.
 
 **2 Perceptron classifier**
-1. Initialize values for the weight vector w and fraction α
-2. Plot linear classifiers for dataset (using PCA or SVD to reduce the number of dimensions to 2D)
+
+  Plot linear classifiers for dataset (using PCA or SVD to reduce the number of dimensions to 2D)
