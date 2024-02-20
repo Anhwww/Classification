@@ -11,3 +11,18 @@ the class labels obtained with the prediction and the original labels of test da
 **2 Perceptron classifier**
 
   Plot linear classifiers for dataset (using PCA or SVD to reduce the number of dimensions to 2D)
+
+  # Maternal Health Risk classification
+**1 Decition Tree - DT**
+1. Select a dataset with available label (for example Iris dataset)
+2. Divide the original dataset into two subsets: one for training (80%) and one for testing (20%).
+3. Build a DT for the training subset and test the built model for data from the testing subset.
+Note: Try the “tree” package from sklearn in Python or the function fitctree() in Matlab.
+4. Calculate the error of classification.
+
+**2 Random Forests**
+1. Select a high dimensional dataset with avaiable label.
+2. Create K = 100 training set (using cross-validation or bagging technique), and build 1 testing
+set.
+3. Build a DT for each training set.
+4. Classify data from the testing set using one DT and all DTs and calculate the error of classification.
